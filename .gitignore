@@ -1,0 +1,84 @@
+# NetCDF and data files
+*.nc
+*.nc4
+*.netcdf
+*.hdf
+*.hdf5
+*.h5
+
+# Zarr directories
+*.zarr/
+output.zarr/
+
+# Large data files
+*.dat
+*.bin
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code configuration
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Performance test outputs
+performance_plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Results and logs
+*.log
+performance_comparison_results.json
+chunking_performance_results.csv
+chunking_performance_detailed.json
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed files (in case you compress data)
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# Any test outputs
+test_*
+*_test.*
+output_chunked.nc
+output.nc
+
+# Specifically ignore the data file
+LIS_HIST_200901070000.d01.nc
